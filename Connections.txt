@@ -1,0 +1,20 @@
+TFT Library: Using TFT_eSPI for the ILI9341-based 2.4" TFT display.
+NRF Library: Using RF24 for the NRF24L01+.
+Connections:
+TFT:
+VCC: 3.3V
+GND: GND
+CS: 15
+RESET: 4
+DC/RS: 2
+SDI/MOSI: 13 (HSPI MOSI)
+SCK: 14 (HSPI SCK)
+LED: 3.3V (or via resistor)
+NRF24L01+:
+VCC: 3.3V
+GND: GND
+CE: 5
+CSN: 17
+SCK: 18 (VSPI SCK)
+MOSI: 23 (VSPI MOSI)
+MISO: 19 (VSPI MISO)
